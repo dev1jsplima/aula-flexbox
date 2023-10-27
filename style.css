@@ -1,0 +1,60 @@
+body, ul, li, p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+h4{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.a:hover{
+    color:dodgerblue; 
+}
+.header{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 20px;
+}
+.menu a{
+    display: block;
+    background-color: dodgerblue;
+    border-radius: 45px;
+    width: 70px;
+    text-align: center;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: #ccc;
+}
+.item{
+    background-color: #575353;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 300px;
+}
+img{
+    width: 295px;
+    height: 180px;
+}
